@@ -1,7 +1,7 @@
 {
-    "name": "novutec/whoisparser"
+    "name": "rshkabko/whoisparser"
   , "type": "library"
-  , "description": "Lookup domain names, IP addresses and AS numbers by WHOIS."
+  , "description": "Lookup domain names, IP addresses and AS numbers by WHOIS. This FORK modifyed to USSR domain zone :)"
   , "keywords": ["whoisparser", "whois", "php"]
   , "homepage": "https://github.com/3name/WhoisParser/"
   , "author": "Novutec Inc."
