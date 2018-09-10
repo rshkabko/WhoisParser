@@ -11,10 +11,22 @@ application may read. Also returns an indication of whether a domain is availabl
 Copyright (c) 2007 - 2013 Novutec Inc. (http://www.novutec.com)
 Licensed under the Apache License, Version 2.0 (the "License").
 
+Modify to better UA and RU zone!
+
 Installation
 ------------
 
-Installing from source: `git clone git://github.com/novutec/WhoisParser.git` or [download the latest release](https://github.com/novutec/WhoisParser/zipball/master)
+Installing from source: `git clone git://github.com/rshkabko/WhoisParser.git` or use composer
+```
+"rshkabko/whoisparser": "dev-master"
+
+"repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/rshkabko/WhoisParser.git"
+        }
+    ],
+```
 
 See Novutec Domain Parser (http://github.com/novutec/DomainParser) or [download the latest release](https://github.com/novutec/DomainParser/zipball/master) and install it as well.
 
