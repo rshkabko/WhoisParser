@@ -267,7 +267,7 @@ class Parser
             $this->Query = new \stdClass();
             $this->Query->asn = $query;
         } else {
-            $Parser = new \Novutec\DomainParser\Parser();
+            $Parser = new \Novutec\DomainParser\Parser('object', dirname(__FILE__));
             $Parser->setCustomDomainGroups($this->customDomainGroups);
             if ($this->cachePath !== null) {
                 $Parser->setCachePath($this->cachePath);
